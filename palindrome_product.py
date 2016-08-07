@@ -6,6 +6,7 @@
 # from the product of two 2-digit numbers is 9009 = 91 × 99.
 
 # Find the largest palindrome made from the product of two 3-digit numbers.
+# alias on EulerProject -> Walter_brian220
 import time
 
 def is_pallindrome(number):
@@ -39,4 +40,4 @@ def get_largest_pallindrome():
     return largest
 
 
-print(get_largest_pallindrome())
+print(len(get_largest_pallindrome()))
